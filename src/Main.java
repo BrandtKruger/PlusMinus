@@ -4,9 +4,6 @@ import java.text.DecimalFormat;
 
 public class Main {
 
-
-    private static DecimalFormat df6 = new DecimalFormat("#.######");
-
     static void plusMinus(int[] arr) {
 
         if(arr.length > 100 || arr.length == 0 )
